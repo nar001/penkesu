@@ -39,7 +39,9 @@ And since there are no immediate plans on selling kits or making the Penkesu Com
     - 3D printed parts ([STL files](stl) and [STEP file](step)) 
     - M2x6mm screws x 6 (8 if intending to secure the keyboard to the bottom tray. See part 2 below for more info.)
     - M2x6mm threaded heat-set inserts x 6 (8 if intending to secure the keyboard to the bottom tray. See part 2 below for more info.)
+    - Some kind of weight, brass sheets or otherwise to keep the case weighted down when the hinge is opened
 - Electronics 
+    - Flat micro USB cables, or wires to keep the size small enough to fit through the hinge
     - Raspberry Pi [Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
     - 3.7V 606090 (or similar size) [Li-Po battery](https://www.aliexpress.com/wholesale?SearchText=606090+battery)
     - Adafruit [PowerBoost 1000C](https://www.adafruit.com/product/2465)
@@ -82,6 +84,8 @@ Pushing func key down and holding it activates a mouse layer. The mouse layer us
 
 2. Add heat-set threaded inserts (M2x6mm) to the 4 corners of screen bezel, and 2 to the hinge cover. You may also use heat insert at the front corners of the keyboard tray. Just note that placing these inserts are very difficult, and not entirely necessary. For ease of access you may wish to not use them at all. 
 
+    You do have to glue the two hinge parts to the case, being careful that they do not interfere when you open the case itself. They stay still, the upper case turning around them.
+
 3. Wrap the ribbon cable twice and pull it out through the hinge cover. If you use a toothpick, it might make it easier to ensure you do this cleanly through the display cover. 
 
   ![](gallery/penkesu.computer-assembly-cable.jpg)
@@ -98,9 +102,20 @@ Pushing func key down and holding it activates a mouse layer. The mouse layer us
     | PowerBoost `GND` | display and Pi Zero's `GND` |
 
     ![](gallery/penkesu.computer-assembly-wiring.jpg) 
+    ![](gallery/wiring.jpg)
+    ![](gallery/wiring2.jpg) 
+
 
 5. Connect the keyboard's micro USB and the display cable into the mini HDMI port of the Pi Zero 2 W; inset the micro SD card into the Pi Zero 2 W. 
 6. Fasten all components with M2x6mm screws. 
+
+    You may want to use some kind of weight on the bottom part, for example brass inserts to keep the device standing when opening the hinge to the maximum angle, like so:
+
+    Here I used two 120g brass sheets, glued to the bottom under the keyboard, which was enough, but YMMV, feel free to experiment:
+
+![](gallery/brass.sheets.120g.jpg)
+
+    
 
 If you made it this far, you are welcome to check out my other project, [the CutiePi tablet](http://cutiepi.io), which is also 100% open source hardware! :-)
 
